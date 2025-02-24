@@ -1,0 +1,74 @@
+main {
+    padding-top: 65px;
+}
+
+.section1 h2{
+    font-size: 60px;
+    padding: 80px 40px 40px 40px;
+    font-family: main-font-italic;
+}
+
+.section1 {
+    border-bottom: 1px solid #fff;
+}
+
+.section2 {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.section2>a {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 700px;
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+}
+
+.section2>a>div {
+    height: 60vh;
+    width: 100%;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.a-link1 div {
+    background-image: url(./Images/game\ 1\ port.webp);
+}
+
+.a-link2 div {
+    background-image: url(./Images/game\ 2\ port.webp);
+}
+
+.a-link3 div {
+    background-image: url(./Images/game\ 3\ port.webp);
+}
+
+.a-link4 div {
+    background-image: url(./Images/game\ 4\ port.webp);
+}
+
+.a-link5 div {
+    background-image: url(./Images/game\ 5\ port.webp);
+}
+
+.a-link6 div {
+    background-image: url(./Images/game\ 6\ port.webp);
+}
+
+.a-link7 div {
+    background-image: url(./Images/char\ 1\ port.webp);
+}
+
+@media screen and (max-width:440px) {
+    .section1 h2 {
+        font-size: 30px;
+    }
+}
